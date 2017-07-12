@@ -1,0 +1,52 @@
+
+.ga-theme-yellow { background-color: rgb(252,231,78) !important; }
+.ga-theme-light-blue { background-color: rgb(71,132,187) !important;}
+.ga-theme-dark-blue { background-color: rgb(50,76,139)!important ;}
+.ga-theme-black { background-color: rgb(40,40,40)!important;	}
+.ga-theme-white { background-color: rgb(255,255,255)!important;	}
+.ga-theme-text-yellow { color: rgb(252,231,78)!important;}
+.ga-theme-text-light-blue { color: rgb(71,132,187)!important;}
+.ga-theme-text-dark-blue { color: rgb(50,76,139)!important;}
+.ga-theme-text-black { color: rgb(40,40,40)!important;	}
+.ga-theme-text-white { color: rgb(255,255,255)!important;	}
+
+
+
+.ga-theme-hover-white:hover { color: rgb(40,40,40) !important; background-color: rgb(255,255,255) !important;	}
+.ga-theme-hover-light-blue:hover { color: rgb(71,132,187) !important; background-color: rgb(71,132,187) !important;	}
+.ga-theme-hover-dark-blue:hover { color: rgb(255,255,255) !important; background-color: rgb(50,76,139) !important;	}
+.ga-theme-text-hover-yellow:hover { color: rgb(252,231,78) !important; }
+.ga-theme-text-hover-light-blue:hover { color: rgb(71,132,187) !important; }
+.ga-theme-text-hover-white:hover { color: rgb(255,255,255) !important;} 
+/*.w3-button:hover {color: rgb(0,200,200) !important; background-color: rgb(200,100,50) !important}*/
+
+
+/* w3 OVERRRIDES */
+.ga-button {
+    border: none;
+    display: inline-block;
+    outline: 0;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.ga-button {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none
+}
+
+.ga-button-hover {
+    color: #000 !important;
+    background-color: #ccc !important
+}

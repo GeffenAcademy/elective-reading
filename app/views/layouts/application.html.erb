@@ -8,7 +8,42 @@
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
-  <body>
-    <%= yield %>
+  <body >
+
+<!-- PAGE CONTENT -->
+  <div class="w3-content" style="max-width:1500px">
+
+      <!-- Header -->
+  <header class="ga-theme-dark-blue w3-container  w3-padding-24 w3-text-white">
+    <a href="http://geffenacademy.ucla.edu" class="w3-xlarge ga-theme-dark-blue" style="text-decoration: none;">Geffen Academy at UCLA</a>
+    <%= link_to "About", about_path, class:"w3-large w3-right ga-button ga-theme-dark-blue ga-theme-text-hover-yellow" %>
+    <%= link_to "Home", root_path, class: "w3-large w3-right ga-button ga-theme-dark-blue ga-theme-text-hover-yellow" %>
+    <!-- <a href="#about" class="w3-large w3-right ga-button ga-theme-dark-blue ga-theme-text-hover-yellow ">Log In</a> -->
+<!--   		<h1> G A Elec Reading</h1>   
+  		<nav>
+          <%= link_to "home",  root_path %>
+          <%= link_to "help",   help_path %>
+          <%= link_to "log in",   '#' %>
+      	</nav>
+ --> 	
+  </header>
+
+    <section id="content" class="w3-section _w3-green">
+    	<%= yield %>
+  	</section>
+  	<footer class="w3-medium w3-container ga-theme-light-blue ga-theme-text-white w3-padding-64">
+      <nav>
+        <%= link_to "contact", contact_path,  class:"w3-right ga-button" %>
+        <!-- 
+        <%= link_to "about", about_path, class: "w3-right ga-button" %>
+
+         -->
+
+      </nav>
+  		<!-- <h4> -->
+       Reach In. Reach Out. Reach On. 
+      <!-- </h4> -->
+  	</footer>
+  </div>
   </body>
 </html>
